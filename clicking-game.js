@@ -6,6 +6,7 @@ jQuery(function ($) {
             .removeClass('btn-success')
             .addClass('btn-danger')
             .html('Click!!!');
+        return false;
     });
 
 });
