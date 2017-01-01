@@ -10,6 +10,7 @@ jQuery(function ($) {
                 .addClass('btn-danger')
                 .html('Click!!!');
             $score.html('Score: 0');
+            game = true;
         } else {
             score++;
             $score.html('Score: ' + score);
